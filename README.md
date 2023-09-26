@@ -3,6 +3,7 @@
 [Netlify](https://demo-230926.netlify.app/)
 
 Dette er en linje  
-Dette er en ny linje
-<br>Dette er også en ny linje
-\nMen denne er jeg ikke sikker på
+Dette er en ny linje fordi den forrige avsluttes av to spaces 
+<br>Dette er også en ny linje fordi den starter med en break tag
+
+Dette er også en ny linje, fordi den har en tom linje over.
