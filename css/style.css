@@ -1,19 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Roboto&display=swap');
 
+* { margin: 0; padding: 0;}
+
 body {
     color: #fafafa;
     background-color: #255a5e;
 }
 
-nav ul li a {
+/*nav ul li a {
     color: #fafafa;
+}*/
+
+nav ul {
+    border: 1px solid green;
+    list-style: none;
+    display: block;
+    padding-left: 0;
 }
+nav li {
+    border: 1px solid red;
+    float: left;
+    margin-right: 10px;
+    background-color: black;
+}
+nav li a {
+    text-decoration: none;
+    width: 100px;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+nav li:last-child {
+    margin-right: 0px;
+}
+
+nav li a.active { /* class="active" i nav i html (home, contact etc) */
+    background-color: #4caf50;
+    color: white;
+} 
+
+nav li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+/*nav li.special {
+    float: right;
+}
+*/
 
 h1, h2, h3 {
     font-family: 'Inconsolata', monospace;
+    margin-bottom: 6px;
+    clear: both;
 }
 p {
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 3px;
 }
 
 h1#contact {
